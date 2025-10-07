@@ -1,0 +1,11 @@
+# Web Framework & Server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# LangChain & Google Gemini Integration
+langchain-core
+langchain-google-genai
+
+# Environment Variables
+python-dotenv
