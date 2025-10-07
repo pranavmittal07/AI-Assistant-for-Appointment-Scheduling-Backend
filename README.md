@@ -4,6 +4,12 @@ This project is an **AI-powered appointment scheduling assistant** that can proc
 
 ---
 
+To Test the API (Deployed on Render)
+```code
+https://ai-assistant-for-appointment-scheduling.onrender.com/docs
+```
+
+
 ## Features
 
 - Accepts **text input**, **image input**, or **text + image**.
