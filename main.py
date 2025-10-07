@@ -69,6 +69,9 @@ async def parse(
     Parses a user request (text and/or image) to schedule an appointment
     using the correct LangChain multimodal input format.
     """
+    if isinstance(file, str) and file == "":
+        file = None
+    
     if not input_text and not file:
         raise HTTPException(status_code=400, detail="Please provide either text or an image.")
 
